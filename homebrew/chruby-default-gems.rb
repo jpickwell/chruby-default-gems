@@ -1,16 +1,18 @@
-require 'formula'
-
 class ChrubyDefaultGems < Formula
-  homepage 'https://github.com/bronson/chruby-default-gems#readme'
-  url 'https://github.com/bronson/chruby-default-gems/archive/master.zip'
-  sha1 '9abfb6f906825229b7519f3a99fa749e6939f660'
-  version '0.0.1' # delete this line once Homebrew can detect the version from t
+  desc "Install a series of gems after every `ruby-install`."
+  homepage "https://github.com/jpickwell/chruby-default-gems#readme"
+  url "https://github.com/jpickwell/chruby-default-gems/archive/master.zip"
+  sha256 ""
+  version "0.1.0"
 
-  head 'https://github.com/bronson/chruby-default-gems.git'
+  head "https://github.com/jpickwell/chruby-default-gems.git"
+
+  depends_on "chruby"
+  depends_on "ruby-install"
 
   def install
     share.install "chruby-default-gems.sh"
-    bin.install 'chruby-default-gems'
+    bin.install "chruby-default-gems"
   end
 
   def caveats
@@ -27,7 +29,7 @@ class ChrubyDefaultGems < Formula
     )
   end
 
-  # test do
-  #   system "#{bin}/chruby-default-gems --version | grep #{version}"
-  # end
+  test do
+    system "true"
+  end
 end
