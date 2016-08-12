@@ -2,7 +2,7 @@ class ChrubyDefaultGems < Formula
   desc "Install a series of gems after every `ruby-install`."
   homepage "https://github.com/jpickwell/chruby-default-gems#readme"
   url "https://github.com/jpickwell/chruby-default-gems/archive/v0.1.0.tar.gz"
-  sha256 ""
+  sha256 "392c71b151a9bdb12dc0be2e12999969cba46858808624fa980d40bad17b366f"
 
   head "https://github.com/jpickwell/chruby-default-gems.git"
 
