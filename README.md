@@ -10,11 +10,11 @@ It is forked from [rbenv-default-gems][sstephenson/rbenv-default-gems].
 If you're on OS X and use Homebrew, this is easiest
 (make sure to follow directions):
 
-    brew install https://raw.github.com/bronson/chruby-default-gems/master/homebrew/chruby-default-gems.rb --HEAD
+    brew install https://raw.github.com/jpickwell/chruby-default-gems/master/homebrew/chruby-default-gems.rb --HEAD
 
 Otherwise, run:
 
-    git clone https://github.com/bronson/chruby-default-gems ~/.chruby-default-gems
+    git clone https://github.com/jpickwell/chruby-default-gems ~/.chruby-default-gems
 
 And add the following to your shell configuration:
 
@@ -68,7 +68,8 @@ Blank lines and lines beginning with a `#` are ignored.
 
 (The MIT License)
 
-Copyright (c) 2013 [Sam Stephenson][sstephenson], [Tom Scott][tubbo], [Scott Bronson][bronson]
+(c) 2013 [Sam Stephenson][sstephenson], [Tom Scott][tubbo], [Scott Bronson][bronson]
+(c) 2016 [Jordan Pickwell][jpickwell]
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
@@ -95,5 +96,6 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 [sstephenson]: https://github.com/sstephenson
 [sstephenson/rbenv]: https://github.com/sstephenson/rbenv
 [sstephenson/rbenv-default-gems]: https://github.com/sstephenson/rbenv-default-gems
-[tubbo]: http://github.com/tubbo
-[bronson]: http://github.com/bronson
+[tubbo]: https://github.com/tubbo
+[bronson]: https://github.com/bronson
+[jpickwell]: https://github.com/jpickwell
